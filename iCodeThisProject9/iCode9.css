@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Rubik', sans-serif;
+    background-color: #cdebe9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.anaAlan{
+    display: flex;
+    background-color: white;
+    width: 500px;
+    height: 650px;
+    flex-wrap: wrap;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: -50px -40px 0px #b8d3e4;
+}
+.baslik{
+    font-size: 1.5rem;
+    margin-left: 20px;
+    margin-top: 40px;
+    position: relative;
+}
+.id{
+    position: relative;
+    top: 60px;
+    right: 220px;
+    font-weight: 300;
+    opacity: 0.8;
+}
+.urunAd{
+    width: 340px;
+    font-size: 1rem;
+    position: relative;
+    bottom: 60px;
+    left: 130px;
+    font-weight: 600;
+}
+.stock{
+    width: 70px;
+    height: 25px;
+    font-size: 0.8rem;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    right: 210px;
+    bottom: 0px;
+    background-color: #7dba44;
+}
+.eksi{
+    width: 30px;
+    height: 30px;
+    background-color: lightcyan;
+    border-radius: 5px;
+    border: 0.5px solid;
+    font-size: 1.5rem;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 280px;
+    top: 40px;
+    margin-right: 3px;
+}
+.sayi{
+    width: 23px;
+    height: 26px;
+    background-color: white;
+    border-radius: 5px;
+    border: 0.5px solid;
+    font-size: 1rem;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3px;
+    padding-left: 10px;
+    position: relative;
+    right: 280px;
+    top: 40px;
+}
+@keyframes animation{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+.arti{
+    width: 30px;
+    height: 30px;
+    background-color: lightcyan;
+    border-radius: 5px;
+    border: 0.5px solid;
+    font-size: 1.5rem;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 72px;
+    left: 204px;
+}
+.bar{
+    width: 85%;
+    height: 2px;
+    background-color: black;
+    opacity: 0.6;
+    position: relative;
+}
+.sp{
+    position: relative;
+    bottom: 60px;
+    left: 40px;
+    font-size: 1rem;
+    opacity: 0.7;
+}
+.spk{
+    position: relative;
+    font-size: 1rem;
+    left: 280px;
+    bottom: 60px;
+}
+.tv{
+    position: relative;
+    right: 140px;
+    bottom: 20px;
+    font-size: 1rem;
+    opacity: 0.7;
+}
+.tvk{
+    position: relative;
+    left: 170px;
+    bottom: 20px;
+    font-size: 1rem;
+}
+.tn{
+    position: relative;
+    right: 248px;
+    top: 20px;
+    font-size: 1rem;
+}
+.tnk{
+    position: relative;
+    left: 55px;
+    top: 20px;
+    font-size: 1rem;
+}
+.link1{
+    position: relative;
+    color: #4478ff;
+    bottom: 40px;
+    left: 40px;
+}
+.buton1{
+    position: relative;
+    width: 400px;
+    height: 50px;
+    left: 50px;
+    background-color: #4478ff;
+    border-radius: 30px;
+    border: transparent;
+    color: white;
+    font-size: 1rem;
+    bottom: 30px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.buton1:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgb(146, 135, 135);
+}
+.buton1:active{
+    animation: animation 0.2s ease-in-out;
+}
+.robotSup{
+    width: 90px;
+    height: 130px;
+    position: relative;
+    top: 110px;
+    right: 280px;
+}
